@@ -27,9 +27,10 @@ function close() {
     <div class="container bar">
       <RouterLink class="brand" to="/" @click="close">
         <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
-          <circle cx="11" cy="14" r="5" fill="var(--cinnabar)" />
-          <circle cx="21" cy="14" r="5" fill="var(--mineral)" />
-          <circle cx="16" cy="21.5" r="3.5" fill="var(--lacquer)" />
+          <rect width="32" height="32" rx="8" fill="#14161B" />
+          <circle cx="11" cy="14" r="4.5" fill="var(--cinnabar)" />
+          <circle cx="21" cy="14" r="4.5" fill="var(--mineral)" />
+          <circle cx="16" cy="21" r="3.2" fill="var(--lacquer)" opacity="0.9" />
         </svg>
         <span class="name">DanQing</span>
       </RouterLink>

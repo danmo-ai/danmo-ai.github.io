@@ -37,8 +37,8 @@ const pillars = [
         <img
           src="/screenshots/ui-market-report.png"
           alt="Research report generated in DanQing Teams"
-          width="1400"
-          height="875"
+          width="3456"
+          height="2168"
         />
         <figcaption>Research &amp; HTML report with live preview</figcaption>
       </figure>
@@ -47,8 +47,8 @@ const pillars = [
           <img
             src="/screenshots/ui-cooking-demo.png"
             alt="Interactive cooking demo in DanQing Teams"
-            width="900"
-            height="560"
+            width="3456"
+            height="2168"
           />
           <figcaption>Interactive demo with playback controls</figcaption>
         </figure>
@@ -56,8 +56,8 @@ const pillars = [
           <img
             src="/screenshots/ui-snake-game.png"
             alt="Snake game built with DanQing Teams"
-            width="900"
-            height="560"
+            width="3456"
+            height="2168"
           />
           <figcaption>Mini-game, then iterate via UI annotations</figcaption>
         </figure>
@@ -99,8 +99,9 @@ const pillars = [
 
 .shots img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .shots figcaption {

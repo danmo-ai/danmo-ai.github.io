@@ -105,8 +105,8 @@ const products = [
           <img
             src="/screenshots/ui-cooking-demo.png"
             alt="DanQing Teams generating an interactive cooking demo"
-            width="1200"
-            height="750"
+            width="3456"
+            height="2168"
           />
           <figcaption>Teams — interactive demos from a single goal</figcaption>
         </figure>
@@ -114,8 +114,8 @@ const products = [
           <img
             src="/screenshots/ui-snake-game.png"
             alt="DanQing Teams iterating on a playable mini-game"
-            width="1200"
-            height="750"
+            width="3456"
+            height="2168"
           />
           <figcaption>Teams — ship a playable prototype, then iterate</figcaption>
         </figure>
@@ -394,9 +394,9 @@ const products = [
 
 .shot img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  filter: saturate(0.95) contrast(1.05);
+  height: auto;
+  display: block;
+  object-fit: contain;
   transition: transform 0.8s var(--ease-out);
 }
 
