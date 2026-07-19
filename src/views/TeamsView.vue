@@ -35,7 +35,7 @@ const pillars = [
     <section class="shots container">
       <figure class="reveal">
         <img
-          src="/screenshots/ui-market-report.jpg"
+          src="/screenshots/ui-market-report.png"
           alt="Research report generated in DanQing Teams"
           width="1400"
           height="875"
@@ -45,7 +45,7 @@ const pillars = [
       <div class="pair">
         <figure class="reveal" style="transition-delay: 80ms">
           <img
-            src="/screenshots/ui-cooking-demo.jpg"
+            src="/screenshots/ui-cooking-demo.png"
             alt="Interactive cooking demo in DanQing Teams"
             width="900"
             height="560"
@@ -54,7 +54,7 @@ const pillars = [
         </figure>
         <figure class="reveal" style="transition-delay: 140ms">
           <img
-            src="/screenshots/ui-snake-game.jpg"
+            src="/screenshots/ui-snake-game.png"
             alt="Snake game built with DanQing Teams"
             width="900"
             height="560"

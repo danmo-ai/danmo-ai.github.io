@@ -37,7 +37,7 @@ const products = [
       <div class="hero-wash" aria-hidden="true" />
       <div class="hero-media" aria-hidden="true">
         <img
-          src="/screenshots/ui-market-report.jpg"
+          src="/screenshots/ui-market-report.png"
           alt=""
           width="1440"
           height="900"
@@ -103,7 +103,7 @@ const products = [
       <div class="container showcase-grid">
         <figure class="shot reveal">
           <img
-            src="/screenshots/ui-cooking-demo.jpg"
+            src="/screenshots/ui-cooking-demo.png"
             alt="DanQing Teams generating an interactive cooking demo"
             width="1200"
             height="750"
@@ -112,7 +112,7 @@ const products = [
         </figure>
         <figure class="shot reveal" style="transition-delay: 100ms">
           <img
-            src="/screenshots/ui-snake-game.jpg"
+            src="/screenshots/ui-snake-game.png"
             alt="DanQing Teams iterating on a playable mini-game"
             width="1200"
             height="750"
