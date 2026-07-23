@@ -18,8 +18,8 @@ const products = [
     name: 'Teams',
     path: '/teams',
     accent: 'var(--mineral)',
-    title: 'A work agent that co-thinks with you.',
-    copy: 'Pure LLM-driven orchestration. No hand-maintained workflows — describe a goal and watch the Trace.',
+    title: 'Pure LLM-driven multi-agent work.',
+    copy: 'One thinking chain, long-horizon tasks. No fixed workflows — log is state; resume, replay, visualize.',
   },
   {
     name: 'Mail',

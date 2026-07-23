@@ -7,7 +7,7 @@ Official English marketing site for [DanQing](https://github.com/danqing-ai) —
 ## Products
 
 - **Studio** — plugin-style image & video generation (MLX / CUDA)
-- **Teams** — Work Agent with pure LLM-driven orchestration
+- **Teams** — pure LLM-driven multi-agent collaboration on one thinking chain
 - **Mail** — AI email information-flow organizer
 
 ## Develop
