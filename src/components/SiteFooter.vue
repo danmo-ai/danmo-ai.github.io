@@ -8,30 +8,30 @@ const year = new Date().getFullYear()
   <footer class="footer">
     <div class="container row">
       <div class="brand-block">
-        <p class="wordmark">DanQing</p>
-        <p class="tag">丹青 — paint with models, think with agents.</p>
+        <p class="wordmark">Danmo</p>
+        <p class="tag">丹墨 — paint with models, think with agents.</p>
       </div>
       <div class="cols">
         <div>
           <p class="label">Products</p>
-          <RouterLink to="/studio">Studio</RouterLink>
-          <RouterLink to="/teams">Teams</RouterLink>
-          <RouterLink to="/mail">Mail</RouterLink>
+          <RouterLink to="/make">Make</RouterLink>
+          <RouterLink to="/work">Work</RouterLink>
+          <RouterLink to="/inbox">Inbox</RouterLink>
         </div>
         <div>
           <p class="label">Open source</p>
-          <a href="https://github.com/danqing-ai" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/danmo-ai" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
           <a
-            href="https://github.com/danqing-ai/dq-ui"
+            href="https://github.com/danmo-ai/dq-ui"
             target="_blank"
             rel="noopener noreferrer"
           >
             dq-ui
           </a>
           <a
-            href="https://github.com/danqing-ai/dq-market"
+            href="https://github.com/danmo-ai/dq-market"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ const year = new Date().getFullYear()
       </div>
     </div>
     <div class="container legal">
-      <p>© {{ year }} DanQing. Local-first AI suite.</p>
+      <p>© {{ year }} Danmo. Local-first AI suite.</p>
     </div>
   </footer>
 </template>

@@ -29,11 +29,11 @@ const views = [
 <template>
   <div ref="root">
     <ProductHero
-      name="Mail"
+      name="Inbox"
       accent="#c4a574"
       tagline="AI-driven email information flow."
-      lede="DanQing Mail is not another full mail client. It syncs IMAP, extracts events with an LLM, and reorganizes your stream into Today, topics, and todos — so attention goes where it should."
-      github="https://github.com/danqing-ai/danqing-mail"
+      lede="Danmo Inbox is not another full mail client. It syncs IMAP, extracts events with an LLM, and reorganizes your stream into Today, topics, and todos — so attention goes where it should."
+      github="https://github.com/danmo-ai/danmo-inbox"
     />
 
     <section class="views container">
@@ -52,11 +52,11 @@ const views = [
     </section>
 
     <section class="stack container reveal">
-      <h2>Aligned with Teams</h2>
+      <h2>Aligned with Work</h2>
       <p>
         Same desktop DNA: Go backend, Vue 3 + Vite frontend, SQLite, Tauri 2, and the shared
-        dq-ui macOS design system. Bring your own LLM endpoint and keys. Run beside Studio and
-        Teams on the unified DanQing port map.
+        dq-ui macOS design system. Bring your own LLM endpoint and keys. Run beside Make and
+        Work on the unified Danmo port map.
       </p>
     </section>
   </div>

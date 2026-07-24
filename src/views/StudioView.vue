@@ -37,11 +37,11 @@ const features = [
 <template>
   <div ref="root">
     <ProductHero
-      name="Studio"
+      name="Make"
       accent="#c93756"
       tagline="Plugin-style image and video generation."
-      lede="DanQing Studio is a local generation workspace — FastAPI backend, Vue canvas, Tauri desktop — built for creators who want models on their own silicon."
-      github="https://github.com/danqing-ai/danqing-studio"
+      lede="Danmo Make is a local generation workspace — FastAPI backend, Vue canvas, Tauri desktop — built for creators who want models on their own silicon."
+      github="https://github.com/danmo-ai/danmo-make"
     />
 
     <section class="features container">

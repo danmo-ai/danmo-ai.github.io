@@ -29,11 +29,11 @@ const pillars = [
 <template>
   <div ref="root">
     <ProductHero
-      name="Teams"
+      name="Work"
       accent="#2a7a82"
       tagline="Pure LLM-driven multi-agent collaboration on one thinking chain."
       lede="A general-purpose Work Agent for long-horizon complex tasks. No fixed workflows — the model drives everything. Tool calls are logged end-to-end so you can resume, replay, and see the thinking stream."
-      github="https://github.com/danqing-ai/danqing-teams"
+      github="https://github.com/danmo-ai/danmo-work"
     />
 
     <section class="shots container">
@@ -54,7 +54,7 @@ const pillars = [
         <figure class="reveal" style="transition-delay: 80ms">
           <img
             src="/screenshots/ui-market-report.png"
-            alt="Research report generated in DanQing Teams"
+            alt="Research report generated in Danmo Work"
             width="3456"
             height="2168"
           />
@@ -63,7 +63,7 @@ const pillars = [
         <figure class="reveal" style="transition-delay: 140ms">
           <img
             src="/screenshots/ui-cooking-demo.png"
-            alt="Interactive cooking demo in DanQing Teams"
+            alt="Interactive cooking demo in Danmo Work"
             width="3456"
             height="2168"
           />
@@ -74,7 +74,7 @@ const pillars = [
       <figure class="reveal" style="transition-delay: 100ms">
         <img
           src="/screenshots/ui-snake-game.png"
-          alt="Snake game built with DanQing Teams"
+          alt="Snake game built with Danmo Work"
           width="3456"
           height="2168"
         />
@@ -107,7 +107,7 @@ const pillars = [
         <figure class="reveal" style="transition-delay: 80ms">
           <img
             src="/screenshots/wx1.png"
-            alt="WeChat-tagged session in DanQing Teams desktop"
+            alt="WeChat-tagged session in Danmo Work desktop"
             width="3456"
             height="2168"
           />

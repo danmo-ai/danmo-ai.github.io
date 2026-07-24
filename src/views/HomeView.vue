@@ -8,22 +8,22 @@ useReveal(root)
 
 const products = [
   {
-    name: 'Studio',
-    path: '/studio',
+    name: 'Make',
+    path: '/make',
     accent: 'var(--cinnabar)',
     title: 'Image & video, on your machine.',
     copy: 'Plugin-style generation with MLX and CUDA. Infinite canvas, lineage, and models you control.',
   },
   {
-    name: 'Teams',
-    path: '/teams',
+    name: 'Work',
+    path: '/work',
     accent: 'var(--mineral)',
     title: 'Pure LLM-driven multi-agent work.',
     copy: 'One thinking chain, long-horizon tasks. No fixed workflows — log is state; resume, replay, visualize.',
   },
   {
-    name: 'Mail',
-    path: '/mail',
+    name: 'Inbox',
+    path: '/inbox',
     accent: 'var(--lacquer)',
     title: 'Inbox as information flow.',
     copy: 'AI organizes email into Today, topics, and todos — so you act on what matters.',
@@ -47,8 +47,8 @@ const products = [
 
       <div class="container hero-copy">
         <p class="brand-lockup">
-          <span class="brand-en">DanQing</span>
-          <span class="brand-zh" lang="zh-Hans">丹青</span>
+          <span class="brand-en">Danmo</span>
+          <span class="brand-zh" lang="zh-Hans">丹墨</span>
         </p>
         <h1 class="headline">Local-first AI for create, collaborate, and inbox.</h1>
         <p class="lede">
@@ -58,7 +58,7 @@ const products = [
           <a class="btn primary" href="#products">Explore products</a>
           <a
             class="btn ghost"
-            href="https://github.com/danqing-ai"
+            href="https://github.com/danmo-ai"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,8 +73,8 @@ const products = [
         <header class="section-head reveal">
           <h2>Three surfaces. One pigment.</h2>
           <p>
-            Named for the red and cyan of classical painting — DanQing is a local-first suite for
-            making, thinking, and focusing.
+            Named for cinnabar and ink — Danmo (丹墨) is a local-first suite for making, thinking,
+            and focusing.
           </p>
         </header>
 
@@ -104,20 +104,20 @@ const products = [
         <figure class="shot reveal">
           <img
             src="/screenshots/ui-cooking-demo.png"
-            alt="DanQing Teams generating an interactive cooking demo"
+            alt="Danmo Work generating an interactive cooking demo"
             width="3456"
             height="2168"
           />
-          <figcaption>Teams — interactive demos from a single goal</figcaption>
+          <figcaption>Work — interactive demos from a single goal</figcaption>
         </figure>
         <figure class="shot reveal" style="transition-delay: 100ms">
           <img
             src="/screenshots/ui-snake-game.png"
-            alt="DanQing Teams iterating on a playable mini-game"
+            alt="Danmo Work iterating on a playable mini-game"
             width="3456"
             height="2168"
           />
-          <figcaption>Teams — ship a playable prototype, then iterate</figcaption>
+          <figcaption>Work — ship a playable prototype, then iterate</figcaption>
         </figure>
       </div>
     </section>
@@ -126,8 +126,8 @@ const products = [
       <div class="container thesis-inner reveal">
         <h2>Not another cloud dashboard.</h2>
         <p>
-          DanQing runs on your Mac or workstation. Studio drives local MLX and CUDA backends.
-          Teams and Mail bring your own models and keys. Your canvas, your Trace, your inbox —
+          Danmo runs on your Mac or workstation. Make drives local MLX and CUDA backends.
+          Work and Inbox bring your own models and keys. Your canvas, your Trace, your inbox —
           without shipping every draft to someone else’s GPU.
         </p>
       </div>
@@ -137,16 +137,16 @@ const products = [
       <div class="container open-inner reveal">
         <h2>Open source by default.</h2>
         <p>
-          Studio, Teams, Mail, the dq-ui design system, and the Experts &amp; Skills market —
-          all under the danqing-ai organization.
+          Make, Work, Inbox, the dq-ui design system, and the Experts &amp; Skills market —
+          all under the danmo-ai organization.
         </p>
         <a
           class="btn primary"
-          href="https://github.com/danqing-ai"
+          href="https://github.com/danmo-ai"
           target="_blank"
           rel="noopener noreferrer"
         >
-          github.com/danqing-ai
+          github.com/danmo-ai
         </a>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
-const TITLE = 'DanQing — Local-first AI'
+const TITLE = 'Danmo — Local-first AI'
 
 export const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,23 +13,27 @@ export const router = createRouter({
       meta: { title: TITLE },
     },
     {
-      path: '/studio',
-      name: 'studio',
+      path: '/make',
+      name: 'make',
       component: () => import('../views/StudioView.vue'),
-      meta: { title: `Studio · ${TITLE}` },
+      meta: { title: `Make · ${TITLE}` },
     },
     {
-      path: '/teams',
-      name: 'teams',
+      path: '/work',
+      name: 'work',
       component: () => import('../views/TeamsView.vue'),
-      meta: { title: `Teams · ${TITLE}` },
+      meta: { title: `Work · ${TITLE}` },
     },
     {
-      path: '/mail',
-      name: 'mail',
+      path: '/inbox',
+      name: 'inbox',
       component: () => import('../views/MailView.vue'),
-      meta: { title: `Mail · ${TITLE}` },
+      meta: { title: `Inbox · ${TITLE}` },
     },
+    // Legacy redirects
+    { path: '/studio', redirect: '/make' },
+    { path: '/teams', redirect: '/work' },
+    { path: '/mail', redirect: '/inbox' },
   ],
   scrollBehavior(to) {
     if (to.hash) return { el: to.hash, behavior: 'smooth' }

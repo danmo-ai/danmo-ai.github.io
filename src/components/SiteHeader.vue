@@ -32,7 +32,7 @@ function close() {
           <circle cx="21" cy="14" r="4.5" fill="var(--mineral)" />
           <circle cx="16" cy="21" r="3.2" fill="var(--lacquer)" opacity="0.9" />
         </svg>
-        <span class="name">DanQing</span>
+        <span class="name">Danmo</span>
       </RouterLink>
 
       <button
@@ -48,29 +48,29 @@ function close() {
 
       <nav id="site-nav" class="nav" :aria-hidden="!open && undefined">
         <RouterLink
-          to="/studio"
-          :class="{ active: route.name === 'studio' }"
+          to="/make"
+          :class="{ active: route.name === 'make' }"
           @click="close"
         >
-          Studio
+          Make
         </RouterLink>
         <RouterLink
-          to="/teams"
-          :class="{ active: route.name === 'teams' }"
+          to="/work"
+          :class="{ active: route.name === 'work' }"
           @click="close"
         >
-          Teams
+          Work
         </RouterLink>
         <RouterLink
-          to="/mail"
-          :class="{ active: route.name === 'mail' }"
+          to="/inbox"
+          :class="{ active: route.name === 'inbox' }"
           @click="close"
         >
-          Mail
+          Inbox
         </RouterLink>
         <a
           class="github"
-          href="https://github.com/danqing-ai"
+          href="https://github.com/danmo-ai"
           target="_blank"
           rel="noopener noreferrer"
           @click="close"
