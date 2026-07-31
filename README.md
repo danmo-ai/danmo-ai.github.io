@@ -2,58 +2,54 @@
 
 [English](README.md) · [中文](README.zh-CN.md)
 
-Official marketing site for [Danmo](https://github.com/danmo-ai) — a local-first AI suite for create, collaborate, and inbox.
+Marketing site for [Danmo](https://github.com/danmo-ai) — local-first AI for create, collaborate, and inbox.
 
-**Live:** [https://danmo-ai.github.io/](https://danmo-ai.github.io/)
+**Site:** https://danmo-ai.github.io/
 
-## Overview
+## Stack
 
-This repository is the organization GitHub Pages site (`danmo-ai.github.io`). It presents Danmo’s three products and is built with **Vue 3**, **Vite**, and **TypeScript**.
+Vue 3 · Vite · TypeScript · Vue Router
 
-## Products
+Published as the org GitHub Pages site (`danmo-ai.github.io`).
 
-| Product | Description |
-| --- | --- |
-| **Make** | Local image & video generation. Plugin-style backends (MLX / CUDA), infinite canvas, and models you control. |
-| **Work** | Pure LLM-driven multi-agent collaboration. One thinking chain for long-horizon tasks — resume, replay, and inspect the stream. |
-| **Inbox** | AI email organizer. Syncs IMAP and turns mail into Today, topics, and todos. |
+## Pages
 
-Routes: `/` · `/make` · `/work` · `/inbox`  
-Legacy paths `/studio`, `/teams`, and `/mail` redirect to the new routes.
+| Path | Product | Focus |
+| --- | --- | --- |
+| `/` | Home | Suite overview |
+| `/make` | Make | Local image & video generation (MLX / CUDA) |
+| `/work` | Work | LLM-driven multi-agent collaboration |
+| `/inbox` | Inbox | AI email as information flow |
 
-## Requirements
+Legacy routes `/studio`, `/teams`, `/mail` redirect to the paths above.
 
-- Node.js 22+
-- npm
+## Quick start
 
-## Develop
+Requires Node.js 22+.
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build & preview
-
-```bash
-npm run build
-npm run preview
-```
-
-`npm run build` type-checks with `vue-tsc`, outputs to `dist/`, and copies `index.html` to `404.html` for GitHub Pages SPA routing.
+| Command | Action |
+| --- | --- |
+| `npm run dev` | Local dev server |
+| `npm run build` | Type-check, build to `dist/`, write `404.html` for SPA fallback |
+| `npm run preview` | Preview the production build |
 
 ## Deploy
 
-Pushes to `main` trigger [GitHub Actions](.github/workflows/deploy.yml) and publish to GitHub Pages. Manual runs are available via **workflow_dispatch**.
+Push to `main` (or run the workflow manually). CI builds and deploys via [GitHub Actions](.github/workflows/deploy.yml).
 
-## Project layout
+## Layout
 
 ```
 src/
-  components/   Shared UI (header, footer, product hero)
-  views/        Home, Make, Work, Inbox pages
-  router/       Vue Router + legacy redirects
-  styles/       Global styles
+  components/   Header, footer, product hero
+  views/        Page views
+  router/       Routes & redirects
+  styles/       Global CSS
 public/         Favicon, icons, screenshots
-brand/          Brand SVG assets
+brand/          Brand SVGs
 ```
