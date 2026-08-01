@@ -18,10 +18,19 @@ Published as the org GitHub Pages site (`danmo-ai.github.io`).
 | --- | --- | --- |
 | `/` | Home | Suite overview |
 | `/make` | Make | Local image & video generation (MLX / CUDA) |
-| `/work` | Work | LLM-driven multi-agent collaboration |
+| `/work` | Work | Human ↔ AI Office co-edit; LLM-driven expert team |
 | `/inbox` | Inbox | AI email as information flow |
 
 Legacy routes `/studio`, `/teams`, `/mail` redirect to the paths above.
+
+## Feature tours (static HTML)
+
+Served from `public/demos/`:
+
+- [`/demos/office-coedit-tour.html`](https://danmo-ai.github.io/demos/office-coedit-tour.html?lang=en&tour=1) — Intent → Propose → Review → Commit
+- [`/demos/product-tour.html`](https://danmo-ai.github.io/demos/product-tour.html?lang=en&tour=1) — Architecture · Highlights · Capacity
+
+Synced from [`danmo-work/docs/demo`](https://github.com/danmo-ai/danmo-work/tree/main/docs/demo) and screenshots under `docs/screenshots/`.
 
 ## Quick start
 
@@ -50,6 +59,6 @@ src/
   views/        Page views
   router/       Routes & redirects
   styles/       Global CSS
-public/         Favicon, icons, screenshots
+public/         Favicon, icons, screenshots, demos
 brand/          Brand SVGs
 ```

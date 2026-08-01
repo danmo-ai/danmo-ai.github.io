@@ -18,10 +18,19 @@ Vue 3 · Vite · TypeScript · Vue Router
 | --- | --- | --- |
 | `/` | 首页 | 套件总览 |
 | `/make` | Make | 本地图像与视频生成（MLX / CUDA） |
-| `/work` | Work | LLM 驱动的多智能体协作 |
+| `/work` | Work | 人与 AI Office 共编；LLM 驱动专家团委派 |
 | `/inbox` | Inbox | AI 邮件信息流 |
 
 旧路由 `/studio`、`/teams`、`/mail` 会重定向到上表路径。
+
+## 功能演示（静态 HTML）
+
+位于 `public/demos/`：
+
+- [`/demos/office-coedit-tour.html`](https://danmo-ai.github.io/demos/office-coedit-tour.html?lang=zh&tour=1) — 意图 → 提案 → 审阅 → 落定
+- [`/demos/product-tour.html`](https://danmo-ai.github.io/demos/product-tour.html?lang=zh&tour=1) — 架构 · 亮点 · 能力
+
+与 [`danmo-work/docs/demo`](https://github.com/danmo-ai/danmo-work/tree/main/docs/demo) 及 `docs/screenshots/` 同步。
 
 ## 快速开始
 
@@ -50,6 +59,6 @@ src/
   views/        页面视图
   router/       路由与重定向
   styles/       全局样式
-public/         Favicon、图标、截图
+public/         Favicon、图标、截图、demos
 brand/          品牌 SVG
 ```

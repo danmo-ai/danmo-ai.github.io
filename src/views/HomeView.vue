@@ -18,8 +18,8 @@ const products = [
     name: 'Work',
     path: '/work',
     accent: 'var(--mineral)',
-    title: 'Pure LLM-driven multi-agent work.',
-    copy: 'One thinking chain, long-horizon tasks. No fixed workflows — log is state; resume, replay, visualize.',
+    title: 'Human ↔ AI Office co-edit on one trail.',
+    copy: 'Coding-agent-grade loop for long-horizon work. Co-edit docs, slides, and sheets with AI Diff review — propose, keep, or revert. Log is state.',
   },
   {
     name: 'Inbox',
@@ -37,7 +37,7 @@ const products = [
       <div class="hero-wash" aria-hidden="true" />
       <div class="hero-media" aria-hidden="true">
         <img
-          src="/screenshots/ui-market-report.png"
+          src="/screenshots/ui-office-coedit.png"
           alt=""
           width="1440"
           height="900"
@@ -103,21 +103,21 @@ const products = [
       <div class="container showcase-grid">
         <figure class="shot reveal">
           <img
-            src="/screenshots/ui-cooking-demo.png"
-            alt="Danmo Work generating an interactive cooking demo"
+            src="/screenshots/ui-ai-doc-modify.png"
+            alt="Danmo Work AI polish expand and modify on a selected paragraph"
             width="3456"
             height="2168"
           />
-          <figcaption>Work — interactive demos from a single goal</figcaption>
+          <figcaption>Work — Human ↔ AI Office co-edit on Document Stage</figcaption>
         </figure>
         <figure class="shot reveal" style="transition-delay: 100ms">
           <img
-            src="/screenshots/ui-snake-game.png"
-            alt="Danmo Work iterating on a playable mini-game"
+            src="/screenshots/ui-team-delegate.png"
+            alt="Danmo Work LLM-driven expert team delegation with clear goals"
             width="3456"
             height="2168"
           />
-          <figcaption>Work — ship a playable prototype, then iterate</figcaption>
+          <figcaption>Work — pure LLM-driven expert team delegation</figcaption>
         </figure>
       </div>
     </section>
