@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// Org site: https://danmo-ai.github.io/
+// Site: https://danmo.work (GitHub Pages)
 export default defineConfig({
   base: '/',
   plugins: [vue()],

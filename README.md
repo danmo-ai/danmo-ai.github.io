@@ -4,13 +4,13 @@
 
 Marketing site for [Danmo](https://github.com/danmo-ai) — local-first AI for create, collaborate, and inbox.
 
-**Site:** https://danmo-ai.github.io/
+**Site:** https://danmo.work
 
 ## Stack
 
 Vue 3 · Vite · TypeScript · Vue Router
 
-Published as the org GitHub Pages site (`danmo-ai.github.io`).
+Published via GitHub Pages (`danmo-ai.github.io`) with custom domain `danmo.work`.
 
 ## Pages
 
@@ -27,8 +27,8 @@ Legacy routes `/studio`, `/teams`, `/mail` redirect to the paths above.
 
 Served from `public/demos/`:
 
-- [`/demos/office-coedit-tour.html`](https://danmo-ai.github.io/demos/office-coedit-tour.html?lang=en&tour=1) — Intent → Propose → Review → Commit
-- [`/demos/product-tour.html`](https://danmo-ai.github.io/demos/product-tour.html?lang=en&tour=1) — Architecture · Highlights · Capacity
+- [`/demos/office-coedit-tour.html`](https://danmo.work/demos/office-coedit-tour.html?lang=en&tour=1) — Intent → Propose → Review → Commit
+- [`/demos/product-tour.html`](https://danmo.work/demos/product-tour.html?lang=en&tour=1) — Architecture · Highlights · Capacity
 
 Synced from [`danmo-work/docs/demo`](https://github.com/danmo-ai/danmo-work/tree/main/docs/demo) and screenshots under `docs/screenshots/`.
 

@@ -4,13 +4,13 @@
 
 [丹墨（Danmo）](https://github.com/danmo-ai) 营销站点 —— 本地优先 AI，覆盖创作、协作与收件箱。
 
-**线上地址：** https://danmo-ai.github.io/
+**线上地址：** https://danmo.work
 
 ## 技术栈
 
 Vue 3 · Vite · TypeScript · Vue Router
 
-以组织级 GitHub Pages 站点（`danmo-ai.github.io`）发布。
+通过 GitHub Pages（`danmo-ai.github.io`）发布，自定义域名为 `danmo.work`。
 
 ## 页面
 
@@ -27,8 +27,8 @@ Vue 3 · Vite · TypeScript · Vue Router
 
 位于 `public/demos/`：
 
-- [`/demos/office-coedit-tour.html`](https://danmo-ai.github.io/demos/office-coedit-tour.html?lang=zh&tour=1) — 意图 → 提案 → 审阅 → 落定
-- [`/demos/product-tour.html`](https://danmo-ai.github.io/demos/product-tour.html?lang=zh&tour=1) — 架构 · 亮点 · 能力
+- [`/demos/office-coedit-tour.html`](https://danmo.work/demos/office-coedit-tour.html?lang=zh&tour=1) — 意图 → 提案 → 审阅 → 落定
+- [`/demos/product-tour.html`](https://danmo.work/demos/product-tour.html?lang=zh&tour=1) — 架构 · 亮点 · 能力
 
 与 [`danmo-work/docs/demo`](https://github.com/danmo-ai/danmo-work/tree/main/docs/demo) 及 `docs/screenshots/` 同步。
 
